@@ -1,0 +1,447 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size:1.05rem;
+    background-color: rgb(228, 228, 228);
+    overflow-x: hidden;
+}
+nav{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+    font-size: 1rem;
+    text-align: justify;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav img{
+    margin-left: 220px;
+}
+#main img{
+    position: relative;
+    top:-10px
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+    margin-top:15px ;
+    font-weight: 600;
+}
+nav h2{
+    display: inline;
+    margin-left: 10px;
+    color:#c79c60;
+    font-size: 2rem;
+    font-weight: 100;
+    margin-right: 20px;
+    position: relative;
+    top:-15px;
+}
+#home{
+    margin-left: 50px;
+    color:#c79c60;
+    margin-top:10px ;
+}
+header{
+    background-color: rgb(40, 39, 38);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 100;
+    color: white;
+}
+h1 div{
+    color:#c79c60;
+}
+#divtext{
+    position: relative;
+    padding: 0 23.5%;
+    bottom: 100px; 
+}
+#divtext p{
+    text-align: justify;
+    color: lightslategray;
+}
+#table{
+    position: relative;
+    top:-220px;
+    left: 15px;
+    z-index: 10;
+}
+#divimg2{
+    width: 100%;
+    height: 400px;
+}
+#wdiv{
+    background-color: rgb(228, 228, 228);
+    height: 100px;
+    position: relative;
+    top:300px
+}
+button{
+    background-color: #3b302e;
+    border-radius: 15px;
+    font-size: 1.05rem;
+    color:#c79c60;
+    text-align: center;
+    margin-top: 30px;
+    background-image: url("https://us.123rf.com/450wm/ivo13/ivo131806/ivo13180600008/102989861-.jpg?ver=6");
+}
+button:hover{
+    color: white;
+}
+#button1{
+    border-style: solid;
+    border-width: 0.01vw;
+    border-color:#c79c60;
+    border-radius: 15px;
+    padding: 8px 55px;
+    margin: 3px 5px;
+}
+#CafeHouse{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    text-align: justify;
+    flex-direction: column;
+    padding:0px 220px;
+    height: 250px;
+}
+#CafeHouse h2{
+    font-size: 2rem;
+    margin-bottom:15px;
+    color:#c79c60;
+    font-weight: 400;
+}
+#CafeHouse h3{
+    font-size: 1.75rem;
+    margin-bottom: 100px;
+    font-weight: 400;
+}
+#CafeHouse #para{
+    width: 55%;
+    position: absolute;
+}
+#CafeHouse img{
+    align-self: flex-end;
+    position: relative;
+    top: -200px;
+    left: 20px;
+    border-style: solid;
+    border-width: 0.5vw;
+    border-color: white;
+    border-radius: 100px;
+    box-shadow: 0px 10px 5px grey;
+}
+#CafeHouse button{
+    margin-top: 20px;
+}
+#PopularItems{
+    margin-top: 40px;
+}
+#PopularItems #divline123{
+    height: 1px;
+    width:50%;
+    background-color:#c79c60;
+    position: relative;
+    left:480px;
+    top:-75px;
+}
+#PopularItems h2{
+    position: relative;
+    left: 220px;
+    font-size: 2.2rem;
+    margin-bottom: 60px;
+    color:#c79c60;
+    font-weight:400;
+}
+#PopularItems div{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+#PopularItems figure{
+    width: 295px;
+    margin-left: 25px;
+    background-color: white;
+    height: 420px;
+}
+#PopularItems figure:hover{
+    box-shadow: 0px 10px 5px grey;
+    /*color:rgb(143, 93, 1);*/
+}
+#PopularItems h3{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: grey;
+}
+#PopularItems #divline{
+    height: 1px;
+    width: 55%;
+    padding-bottom: 0px;
+    position: relative;
+    top:-19px;
+    margin: auto;
+    background-color:grey;
+}
+#PopularItems figure:hover h3{
+    color:#c79c60;
+}
+#PopularItems figure:hover #divline{
+    background-color:#c79c60;
+}
+#PopularItems h3 span{
+    font-size: 4.5rem;
+    margin-bottom: 1px;
+}
+#PopularItems #img1{
+    width: 100%;
+}
+#PopularItems #img123{
+    display: inline;
+    position:relative;
+    top:3px;
+}
+#PopularItems figcaption{
+    text-align: center;
+    
+}
+#PopularItems figcaption div{
+    text-align: center;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+}
+#PopularItems #Circles{
+    position: relative;
+    left: 100px;
+    top:-40px;
+    font-size: 1.50rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 20px;
+    padding-top: 18px;
+    z-index: 1;
+    background-color: #524c4c;
+    /*outline: 4px solid #aeb6b9;
+    outline-offset: -10px;*/
+    color:#aeb6b9;
+}
+#PopularItems #Circles #Circles2{
+    display: block;
+    position: relative;
+    top:-11px;
+    height: 50px;
+    width: 40px;
+    padding: 14px;
+    padding-top: 8px;
+    border-radius: 50%;
+    border-style:solid;
+    border-width: 2px;
+    background-color:#524c4c;
+    z-index: 2;
+    cursor: pointer;
+}
+#PopularItems #Circles #Circles2 div{
+    position: relative;
+    left:-9px;
+    top:2px
+}
+#PopularItems #Circles:hover{
+    color:#c79c60;
+}
+#TodaySpecial{
+    margin-top: 100px;
+}
+#TodaySpecial #divline123{
+    height: 1px;
+    width:54%;
+    background-color:#c79c60;
+    position: relative;
+    left:440px;
+    top:-65px;
+}
+#TodaySpecial h2{
+    position: relative;
+    left: 220px;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color:#c79c60;
+    font-weight:400;
+}
+#TodaySpecial #img1{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    text-align: justify;
+    flex-wrap: wrap;
+    height:450px;
+}
+#TodaySpecial #img1 img{
+    margin-left: 30px;
+    border-style: solid;
+    border-width: 0.75vw;
+    border-color: white;
+    display: block;
+}
+#TodaySpecial #img23{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    height: 0px;
+}
+#TodaySpecial #img23 img{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#divtest{
+    height: 240px;
+}
+#imgtag{
+    font-size: 1.02rem;
+    font-weight: 200;
+    background-color: rgba(0, 0, 0, 0.7);
+    color:white;
+    position: relative;
+    text-align: left;
+    padding: 20px 10px;
+}
+.imgtag1{
+    margin-left: 40px;
+    width: 500px;
+    top:-108px;
+}
+.imgtag2{
+    margin-left: 42px;
+    width: 340px;
+    top:-128px;
+}
+.imgtag3{
+    margin-left: 41px;
+    width: 135px;
+    top:-70px;
+}
+.imgtag4{
+    margin-left: 41px;
+    width: 135px;
+    top:-70px;
+}
+#imgtag h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 200;
+}
+#DailyMenu{
+    margin-top: 50px;
+    
+}
+#DailyMenu #divline123{
+    height: 1px;
+    width:50%;
+    background-color:#c79c60;
+    position: relative;
+    left:480px;
+    top:-15px;
+}
+#DailyMenu h2{
+    position: relative;
+    left:210px;
+    font-size: 2rem;
+    color:#c79c60;
+}
+#DailyMenu #div1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#DailyMenu img{
+    border: 10px;
+}
+#DailyMenu #para{
+    width: 40%;
+    margin-left: 80px;
+}
+#DailyMenu ul{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 40px;
+}
+#DailyMenu li{
+    list-style-type:decimal;
+}
+
+#links{
+    margin-top: 100px;
+    color: white;
+    background-color: rgb(40, 39, 38);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 1rem;
+}
+#links #main{
+    font-size: 1.40rem;
+    position: relative;
+    top:-15px;
+}
+#links #sect1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#links h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+#links #f1{
+    margin-right: 70px;
+    margin-left: 30px;
+}
+#links #f1 li{
+    margin-top: 15px;
+    font-weight: 600;
+}
+#links #f2{
+    width: 30%;
+    margin-right: 40px;
+}
+#links #f21{
+    margin-top: 20px;
+}
+#links #f22{
+    margin-top: 20px;
+}
+#links #f3{
+    width: 22%;
+}
+#links li{
+    list-style-type: none;
+}
+#icons{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+footer{
+    font-size: 0.75rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
